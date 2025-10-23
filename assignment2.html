@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thanh's Dating Profile</title>
+    <link rel="stylesheet" href="assignment2.css" />
+  </head>
+  <body>
+    <header id="header">
+      <h1>Thanh's Dating Profile</h1>
+      <h2>Looking for someone to walk through youth together</h2>
+    </header>
+
+    <section id="aboutMe">
+      <div class="profile-photo">
+        <img src="a8ff2740-bcc4-47c8-9a05-3cb9513cc29f.jpg" alt="" />
+      </div>
+      <p>
+        Hey there! I’m Thanh, 20 — a curious soul passionate about technology, music, sports, and gaming. I’m always up for new experiences and find peace in nature.
+      </p>
+    </section>
+
+    <section id="basicInformation">
+      <h3>Basic Information</h3>
+      <table>
+        <colgroup>
+          <col class="Category" />
+          <col class="Details" />
+        </colgroup>
+
+        <thead>
+          <tr>
+            <th>Category</th>
+            <th>Details</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Age</td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <td>Occupation</td>
+            <td>Game Developer</td>
+          </tr>
+          <tr>
+            <td rowspan="2">Hobbies</td>
+            <td>Gaming, Listening to music</td>
+          </tr>
+          <tr>
+            <td>Sports, Traveling</td>
+          </tr>
+        </tbody>
+
+        <tfoot>
+          <td colspan="2">Information updated in 2025</td>
+        </tfoot>
+      </table>
+    </section>
+
+    <section id="Music">
+      <h3>Audio</h3>
+      <audio controls>
+      <source src="giá như.mp3" type="audio/mpeg">
+      </audio>
+    </section>
+
+    <section id="AdditionalContent">
+      <h3>Additional Content</h3>
+      <p>Hanoi has countless lovely spots for a date – these are the places I’d love to explore with you 🍰</p>
+          <p><iframe width="560" height="315" src="https://www.youtube.com/embed/XJ45msOsdaI?si=W1WJIWEs4bKpGynu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p> <p class="PlacetoDate">Hanoi Cathedral</p>
+          <p><iframe width="560" height="315" src="https://www.youtube.com/embed/cxZin7sThfY?si=6LGxpuIhnosjd_BJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p> <p class="PlacetoDate">Hanoi Book Street</p>
+    </section>
+
+    <section id="FindAMatch">
+        <h3>💞 Find Your Match</h3>
+        <form action="Thankyou.html" method="get">
+          <fieldset>
+            <legend>Your Information</legend>
+            <label>Name:</label>
+              <input type="text" name="name" required><br>
+            <label>Email:</label>
+              <input type="email"name="email" required><br>
+            <label>Password:</label>
+              <input type="password" name="password" required><br>
+          </fieldset>
+
+          <fieldset>
+            <legend>Desired Partner</legend>
+            
+            <label>Gender:</label>
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female <br>
+            
+            <label>Hobbies:</label>
+            <input type="radio" name="hobbies" value="travel"> Travel
+            <input type="radio" name="hobbies" value="music"> Music
+            <input type="radio" name="hobbies" value="sports"> Sports <br>
+
+             <label>Country:</label>
+            <select>
+              <option>Vietnam</option>
+              <option>Japan</option>
+              <option>Korea</option>
+              <option>USA</option>
+            </select><br>
+
+            <label>Desired Occupation:</label>
+            <input list="occupations" name="occupation">
+            <datalist id="occupations">
+              <option value="Engineer">
+              <option value="Designer">
+              <option value="Teacher">
+              <option value="Artist">
+            </datalist><br>
+
+            <label>Message:</label>
+            <textarea rows="4" cols="30"></textarea><br>
+
+            <button type="submit">Submit Information</button>
+          </fieldset>
+        </form>
+      </section>
+  </body>
+</html>

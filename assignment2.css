@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color:#FAF7F0;
+  line-height: 1.2;
+  margin: 5px;
+  padding: 5px;
+}
+#header {
+  background-color: #D8D2C2;
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+}
+h1,h2,h3,p{
+  color: #4A4947;
+}
+.profile-photo img {
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+  border: 5px solid #4A4947;
+  padding: 4px;
+  display: block;
+  margin: 20px auto;
+  object-fit: cover;
+}
+table {
+  width: 60%;
+  border-collapse: collapse;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+col.Category {
+  background-color: #e0dad2;
+  width: 30%;
+}
+col.Details {
+  background-color: #f0ece5;
+}
+th,
+td {
+  border: 1px solid #4A4947;
+  padding: 10px;
+  text-align: center;
+}
+tfoot td {
+  text-align: center;
+  font-style: italic;
+}
+section {
+  margin: 5px;
+}
+audio,iframe{
+  display: block;
+  margin: auto;
+}
+.PlacetoDate{
+  text-align: center;
+  font-style: italic;
+}
+form{
+  width: 60%;           
+  margin:20px auto;       
+  background-color: #D8D2C2;
+  padding: 20px;
+  border-radius: 10px;
+}
+fieldset {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+legend {
+  color: #615a4e;
+  font-weight: bold;
+}
+button {
+  background-color: #8a6758;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+button:hover {
+  background-color: #B17457;
+}
